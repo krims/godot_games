@@ -1,0 +1,54 @@
+BrewMaster:
+BrewMaster is a simulation game where you, the player, get to manage your own brewery.
+The player does not have an avatar to control, i.e. Sim City or Roller Coaster Tycoon?
+The player does control an avatar, i.e. The Sims?
+Possibly both - you can choose between the sim management of the brewery and a rpg to gather the stuff for your brewery
+    While managing - your avatar can be doing the rpg 'behind the scenes' while you manage the brewery
+      get updates like "You fended off a monster who dropped 1lb of hops" + 1lb hops
+    While RPG - the brewery manages itself while you fight / search for ingredients
+      get updates like "A new batch has finished and is ready now available on tap!" + 10$/hr
+
+
+Management:
+
+
+RPG:
+
+
+Player choices:
+  ☐ Equipment
+    ☐ Malter?
+      not sure if this is done by the brewery or the supplier
+    ☐ Masher
+      steeped in hot, but not boiling, water for about an hour, sort of like making tea. This activates enzymes in the grains that cause it to break down and release its sugars. Once this is all done you drain the water from the mash which is now full of sugar from the grains. This sticky, sweet liquid is called wort. It’s basically unmade beer, sort of like how dough is unmade bread.
+    ☐ Boiler
+      The wort is boiled for about an hour while hops and other spices are added several times.
+    ☐ Fermenting Vessel (wood or steel barrel?)
+      Once the hour long boil is over the wort is cooled, strained and filtered. It’s then put in a fermenting vessel and yeast is added to it. At this point the brewing is complete and the fermentation begins. The beer is stored for a couple of weeks at room temperature (in the case of ales) or many many weeks at cold temperatures (in the case of lagers) while the yeast works its fermentation magic. Basically the yeast eats up all that sugar in the wort and spits out CO2 and alcohol as waste products.
+    ☐ Carbonation
+      The flat beer is bottled, at which time it is either artificially carbonated like a soda, or if it’s going to be ‘bottle conditioned’ it’s allowed to naturally carbonate via the CO2 the yeast produces. 
+  ☐ Ingredients
+    ☐ basics: barley, hops, water, yeast
+    ☐ other: spices, fruits, chocolate, etc.
+  ☐ Theme
+    ☐ Medieval inn
+    ☐ Irish pub
+    ☐ German beergarten
+    ☐ Modern gastropub
+    ☐ Country saloon
+    ☐ Hipster hangout
+    ☐ Barcade
+  ☐ Layout
+    ☐ Grid-Snap, free placement, or allow both?
+    ☐ Placement of equipment should affect the results of the beer making process. 
+      Placing equipment randomly causes the workers to get flustered?
+  ☐ Objectives
+    ☐ Early Game
+      ☐ Limited options for equipment/ingredients - mini tutorial
+      ☐ Choices should be easily fixable mid/late game as the player learns how the game works
+      ☐ easy pacing
+    ☐ Mid Game
+    ☐ Late Game
+
+
+Notes:

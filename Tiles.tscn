@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://ground_05.png" type="Texture" id=1]
+[ext_resource path="res://ground_06.png" type="Texture" id=2]
+[ext_resource path="res://crate_06.png" type="Texture" id=3]
+[ext_resource path="res://crate_22.png" type="Texture" id=4]
+
+[node name="Node" type="Node"]
+
+[node name="GroundGreen" type="Sprite" parent="." index="0"]
+
+visible = false
+texture = ExtResource( 1 )
+
+[node name="GroundGravel" type="Sprite" parent="." index="1"]
+
+visible = false
+texture = ExtResource( 2 )
+
+[node name="Vat" type="Sprite" parent="." index="2"]
+
+editor/display_folded = true
+visible = false
+texture = ExtResource( 3 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Vat" index="0"]
+
+visible = false
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Vat/StaticBody2D" index="0"]
+
+visible = false
+build_mode = 0
+polygon = PoolVector2Array( -30, -30, 30, -30, 30, 30, -30, 30 )
+_sections_unfolded = [ "Transform", "Z Index" ]
+
+[node name="barrel" type="Sprite" parent="." index="3"]
+
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="barrel" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="barrel/StaticBody2D" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -30, -30, 30, -30, 30, 30, -30, 30 )
+
+
